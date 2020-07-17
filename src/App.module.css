@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(248, 245, 245);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+}
+.container{
+    margin-top: 40px;
+    width:350px;
+}

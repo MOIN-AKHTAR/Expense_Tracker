@@ -1,0 +1,47 @@
+hr{
+   background-color: tomato;
+   height: 1px;
+   border:none;
+}
+.formControl{
+    margin:10px 0px;
+}
+label{
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+input[type="text"],
+input[type="number"]{
+    display: block;
+    width:100%;
+    margin:10px 0;
+    padding: 5px;
+    border:1px solid #ccc
+}
+input:focus{
+    outline: none;
+}
+.hint{
+    display: block;
+    font-weight: 600;
+}
+.btn{
+    display: block;
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    background-color: #6F5EBB;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+    color: #6F5EBB;
+    background: transparent;
+}
+.btn:active,.btn:focus{
+    outline: none;
+}

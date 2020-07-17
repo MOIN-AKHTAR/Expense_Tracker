@@ -1,0 +1,35 @@
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainDiv:hover h1{
+    display: block;
+}
+.mainDiv h1{
+    display: none;
+    color: red;
+    cursor: pointer;
+}
+.list{
+    flex:1 0 auto;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    cursor: pointer;
+    width: 100%;
+}
+.list:hover{
+    background: #CCC;
+}
+.minus{
+    border-right: 5px solid #BD4749;
+}
+.plus{
+    border-right: 5px solid #44bd78;
+}

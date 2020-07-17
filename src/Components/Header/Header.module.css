@@ -1,0 +1,39 @@
+.expenseHeading{
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2,h1{
+    margin: 0;
+    padding: 0;
+}
+.inc_exp_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgb(170, 169, 169), 2px 0 2px rgb(212, 206, 206);
+    box-sizing: border-box;
+    background: #FFF;
+    /* box-sizing: border-box; */
+    margin: 10px 0;
+    text-align: center;
+}
+.inc_exp_div div{
+  padding: 10px;
+  margin: 10px auto;
+  flex: 1;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+.inc_exp_div div:first-of-type{
+    border-right: 2px solid rgb(214, 212, 212);
+}
+.inc_exp_div div h5{
+    font-size: 1.2rem;
+}
+.inc{
+  color:#44bd78;
+}
+.exp{
+  color:#BD4749;
+}
